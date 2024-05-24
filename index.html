@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo app </title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <container class="todo">  
+<h1><b> To-Do App</b></h1>
+<div>
+  <input type="text" id="taskInput" placeholder="Enter task">
+  <button onclick="addTask()">Add Task</button>
+</div>
+<ul id="taskList">
+  
+</ul>
+</container> 
+
+</body>
+<script src="app.js"></script>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+  </head>
+  <body>
+    <container class="todo">  
+
+    <div>
+      <h1>Todo App</h1>
+
+      <input type="text" id="todoInput" />
+
+      <button onclick="addTodo()">Add todo</button>
+      <button onclick="deleteAll()">Delete all</button>
+    </div>
+
+    <div>
+      <ul id="list"></ul>
+    </div>
+    </container>
+    <script src="app.js"></script>
+  </body>
+</html>
